@@ -1,44 +1,42 @@
-<html>
-  <head>
-    <title>Weather Application</title>
+<head>
+  <title>Weather Application</title>
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+    rel="stylesheet"
+  />
+</head>
 
-  <body>
-    <div class="card">
-      <div class="search">
-        <input type="text" placeholder="Enter city name" spellcheck="false" />
-        <button>
-          <img src="images/searchIcon.png" style="width: 50px; height: 50px" />
-        </button>
+<div class="card">
+  <div class="search">
+    <input type="text" placeholder="Enter city name" spellcheck="false" />
+    <button>
+      <img src="images/searchIcon.png" style="width: 50px; height: 50px" />
+    </button>
+  </div>
+  <div class="error"><p>Invalid City name</p></div>
+  <div class="weather">
+    <img src="images/sunny.png" class="weather-icon" />
+    <h1 class="temp">22°c</h1>
+    <h2 class="city">Paris</h2>
+    <div class="details">
+      <div class="col">
+        <img src="images/humidity.png" />
+        <div>
+          <p class="humidity">50%</p>
+          <p>humidity</p>
+        </div>
       </div>
-      <div class="weather">
-        <img
-          src="images/sunny.png"
-          class="weather-icon"
-        />
-        <h1 class="temp">22°c</h1>
-        <h2 class="city">Paris</h2>
-        <div class="details">
-          <div class="col">
-            <img src="images/humidity.png" style="width: 50px; height: 50px" />
-            <div>
-              <p class="humidity">50%</p>
-              <p>humidity</p>
-            </div>
-          </div>
-          <div class="details">
-            <div class="col">
-              <img src="images/windy.png" style="width: 50px; height: 50px" />
-              <div>
-                <p class="Windy">15 km/h</p>
-                <p>Wind Speed</p>
-              </div>
-            </div>
-            
+      <div class="col">
+        <img src="images/windy.png" />
+        <div>
+          <p class="Windy">15 km/h</p>
+          <p>Wind Speed</p>
         </div>
       </div>
     </div>
-  </body>
-</html>
+  </div>
+
+  <script src="src.js"></script>
+</div>
