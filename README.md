@@ -2,4 +2,6 @@
 
 <hr> 
 
-<h3>weather-hz8mh5hue-xbariq.vercel.app</h3>
+
+
+Check out the live demo here: [weather-hz8mh5hue-xbariq.vercel.app](https://weather-hz8mh5hue-xbariq.vercel.app)
